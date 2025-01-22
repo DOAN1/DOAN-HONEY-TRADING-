@@ -87,6 +87,35 @@ nav ul li a {
     border-radius: 10px;
 }
 
+.products .product h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.products .product p {
+    font-size: 1em;
+    color: #555;
+}
+
+.products .product .price {
+    font-size: 1.2em;
+    color: #b12704;
+    margin: 10px 0;
+}
+
+.products .product button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.products .product button:hover {
+    background-color: #e6b800;
+}
+
 .contact form {
     display: flex;
     flex-direction: column;
